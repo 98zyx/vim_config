@@ -47,7 +47,7 @@ Plug 'tpope/vim-surround' " 操作成对
 Plug 'rking/ag.vim' " 模糊搜索
 Plug 'preservim/tagbar' "分析源码
 " Use release branch (recommended)
-Plug 'neoclide/coc.nvim', {'branch': 'release'} " C代码补全
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " C代码补全, 安装了coc-clangd和coc-snippets插件
 call plug#end()
 
 colorscheme hybrid " 使用hybrid配色主题, 放在plug后面
